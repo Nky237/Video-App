@@ -1,0 +1,36 @@
+.Navy{
+    background-color: #030F1C;
+    color: white;
+}
+
+.main-nav{
+    width: 95%;
+}
+.navbar-brand img{
+    height: 50px;
+}
+/* sections */
+section{
+    padding: 90px 0;
+}
+section .container{
+    width: 100%;
+}
+.sec1 {
+     width: 100%;
+    background-color: #030F1C;
+    color: white;
+}
+.sec2, .sec5{
+    background-color: #E5F1FF;
+}
+.sec-text{
+    width: 40%;
+}
+.sec-video{
+    width: 50%;
+}
+.sec-video iframe{
+    width: 100%;
+    height: 400px;
+}
