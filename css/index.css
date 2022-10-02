@@ -5,6 +5,9 @@ body{
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 .Navy{
     background-color: #030F1C;
     color: white;
@@ -18,6 +21,12 @@ a{
 .nav-link{
     font-size: 26px;
     margin: 0 20px;
+    transition: 1s ease-in-out;
+}
+.nav-link:hover{
+    color: #09071D;
+    background-color: #0E1C5E;
+    border-radius: 15px;
 }
 .navbar-nav{
     display: flex;
@@ -47,7 +56,13 @@ a{
 }
 .sidy button{
     width: 50%;
+    transition: 1s ease-in-out;
 }
+.sidy button:hover{
+    background-color: #0E1C5E;
+}
+
+
 /* sections */
 section{
     padding: 90px 0;
@@ -86,6 +101,11 @@ section .container{
     margin: 20px 0;
     font-weight: 700;
     font-size: 20px;
+    transition: 1s ease-in-out;
+}
+.sec-text button:hover{
+    background-color: #FBBB47;
+    color: #0E1C5E;
 }
 .sec-text p{
     font-size: 20px;
@@ -99,6 +119,17 @@ section .container{
     width: 100%;
     height: 400px;
     border-radius: 5px 20px 5px;
+}
+
+.circ{
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #09071D;
+    color: white;
+    padding-top: 5px;
 }
 .accordion{
     border: 3px solid #B8DBFF;
@@ -169,6 +200,11 @@ form{
     color: blue;
     background-color: #B8DBFF;
     font-size: 24px;
+    transition: 1s ease-in;
+}
+.sec9 button:hover{
+    background-color: #FBBB47;
+    color: #0E1C5E;
 }
 /* FOOTER */
 footer{
@@ -244,7 +280,10 @@ footer{
     width: 90%;
     font-size: 22px;
 }
-
+.circ{
+    width: 40px;
+    height: 40px;
+}
 /* form */
 .secy10{
     flex-direction: column;
